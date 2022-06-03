@@ -4,12 +4,11 @@
 
 /**
  * main - assings a random number to a variable
- * return - returns 0
+ * Return: funtion returns 0 always
  */
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	
