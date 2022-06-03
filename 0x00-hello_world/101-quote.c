@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <unistd.h>
+
 /**
  * main - This function prints out the string to the standard error
  * and that piece of art is useful" - Dora Korpar, 2015-10-19
@@ -6,7 +8,6 @@
  */
 int main(void)
 {
-	fwrite("and that piece of art is useful\" - Dora Korpar, ", 49, 1, stderr);
-	fwrite("2015-10-19\n", 19, 1, stderr);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
