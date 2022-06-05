@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints numbers
+ * main - prints numbers with commas
  * Return: returns 0 always
  */
 
@@ -19,4 +19,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
