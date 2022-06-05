@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	char p;
+	int p;
 
 	for (p = 0; p <= 9; p++)
 	{
