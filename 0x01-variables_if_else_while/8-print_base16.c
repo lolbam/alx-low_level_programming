@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print numbers of base 10
+ * main - print hexadecimal
  * Return: returns 0 always
  */
 
