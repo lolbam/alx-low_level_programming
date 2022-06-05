@@ -6,9 +6,9 @@
 
 int main(void)
 {
-	int p;
+	char p;
 
-	for (p = ; p <= 9; p++)
+	for (p = 0; p <= 9; p++)
 	{
 		putchar(p);
 	}
