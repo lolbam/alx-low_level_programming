@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(p / 10 + '0');
 		putchar(p % 10 + '0');
-		if (p != 9)
+		if (p != 99)
 		{
 			putchar(44);
 			putchar(32);
