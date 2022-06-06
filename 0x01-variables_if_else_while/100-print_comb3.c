@@ -12,12 +12,12 @@ int main(void)
 
 	for (q = '0'; q <= '9'; q++)
 	{
-		for (p= (q + 1); p <= '9'; p++)
+		for (p = (q + 1); p <= '9'; p++)
 		{
 			putchar(q);
 			putchar(p);
 
-			if (q!= '8' || p != '9')
+			if (q != '8' || p != '9')
 			{
 				putchar(44);
 				putchar(32);
