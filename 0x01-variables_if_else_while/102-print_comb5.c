@@ -1,23 +1,40 @@
 #include <stdio.h>
+
 /**
- * main - prints numbers 00 to 99 with commas
- * Return: returns 0 always
+ *main - print a combination from 00-99
+ *Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int p;
+	int a, b, c, d;
 
-	for (p = 0; p <= 99; p++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		putchar(p / 10 + '0');
-		putchar(p % 10 + '0');
-		if (p != 99)
+		for (b = '0'; b <= '9'; b++)
 		{
-			putchar(44);
-			putchar(32);
+		 	for (c = a; c <= '9'; c++) /*print second of pair*/
+			{
+				for (d = b + 1; d <= '9'; d++)
+				{
+					putchar(a);
+					putchar(b);
+					putchar(32);
+					putchar(c);
+					putchar(d);
+
+					if (!((a == '9' && b == '8') &&
+					      (c == '9' && d == '9')))
+					{
+						putchar(44);
+						putchar(32);
+					}
+				}
+				d = '0';
+			}
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
