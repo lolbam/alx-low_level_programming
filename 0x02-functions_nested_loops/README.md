@@ -1,1 +1,1 @@
-functions, nested loops
+Functions, nested loops

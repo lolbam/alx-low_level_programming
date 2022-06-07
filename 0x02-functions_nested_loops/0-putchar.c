@@ -1,11 +1,21 @@
-#include <stdio.h>
+#include "main.h"
+/**main - prints putchar and a new line
+ *
+ * Return: always returns 0
+ */
 
-/**
-* main - This function prints out the string _putchar
-* Return: Function returns 0
-*/
 int main(void)
 {
-	puts("_putchar");
+
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
 	return (0);
 }
