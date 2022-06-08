@@ -18,9 +18,10 @@ int main(void)
 		b = b + a;
 	}
 	if (countto % 2 == 1)
+	{
 		printf("%li", a);
 		printf(", ");
-
+	}
 	printf("\n");
 
 	return (0);
