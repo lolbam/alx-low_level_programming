@@ -2,12 +2,12 @@
 
 /**
  * print_last_digit - prints last digit of a number
- * @r: is the digit 
+ * @r: is the digit
  * Return: returns the value of the last digit
  */
 int print_last_digit(int r)
 {
-	int p; 
+	int p;
 	
 	p = r % 10;
 
