@@ -6,23 +6,23 @@
 
 int main(void)
 {
-	int c;
-	int countto = 50;
-	long a = 1;
-	long b = 2;
+	int count;
+	unsigned long p = 1, q = 2;
+	unsigned sum;
 
-	for (c = 1; c <= countto / 2; c++)
+	for (count = 1; count < 50; count++)
 	{
-		printf("%li %li, ", a, b);
-		a = a + b;
-		b = b + a;
+		sum = p + q;
+		printf("%lu", sum);
+
+		p = q;
+		q = sum;
+
+		if (count == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
-	if (countto % 2 == 1)
-	{
-		printf("%li", a);
-		printf(", ");
-	}
-	printf("\n");
 
 	return (0);
 }
