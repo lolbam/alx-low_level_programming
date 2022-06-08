@@ -3,7 +3,7 @@
  * add - adds two integers
  *@n: is the first integer
  *@p: is the second integer
- *Returns: returns result of the addition
+ *Return: The result of the addition
  */
 int add(int n, int p)
 {
