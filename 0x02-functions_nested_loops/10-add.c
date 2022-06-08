@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * add - adds two integers
- *
- * Returns: returns 0
+ *@n: is the first integer
+ *@p: is the second integer
+ * Returns: returns sum
  */
 int add(int n, int p)
 {
