@@ -11,13 +11,13 @@ int main(void)
 	long a = 1;
 	long b = 2;
 
-	for (c = 1; c <= c / 2; c++)
+	for (c = 1; c <= countto / 2; c++)
 	{
 		printf("%li %li ", a, b);
 		a = a + b;
 		b = b + a;
 	}
-	if (c % 2 == 1)
+	if (countto % 2 == 1)
 		printf("%li", a);
 
 	printf("\n");
