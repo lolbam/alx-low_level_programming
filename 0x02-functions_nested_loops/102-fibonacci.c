@@ -7,10 +7,10 @@
 int main(void)
 {
 	int count;
-	unsigned long p = 1, q = 2;
+	unsigned long p = 0, q = 1;
 	unsigned long sum;
 
-	for (count = 1; count < 50; count++)
+	for (count = 0; count < 50; count++)
 	{
 		sum = p + q;
 		printf("%lu", sum);
