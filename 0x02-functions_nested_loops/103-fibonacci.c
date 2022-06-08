@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - prints ibonacci sequence whose values
+ * main - prints fibonacci sequence whose values
  * do not exceed 4,000,000
- * Returns: returns 0 always
+ * Return: returns 0 always
  */
 
 int main(void)
 {
-  unsigned long a = 0, b = 1, sum;
+	unsigned long a = 0, b = 1, sum;
 	float total;
 
 	while (1)
