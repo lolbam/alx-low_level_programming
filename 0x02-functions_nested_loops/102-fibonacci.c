@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints fibonacci number upto 50
+ * main - prints first 50 fibonacci numbers
  * Return: returns 0
  */
 
@@ -18,7 +18,8 @@ int main(void)
 		b = b + a;
 	}
 	if (countto % 2 == 1)
-		printf("%li,", a);
+		printf("%li", a);
+		printf(", ");
 
 	printf("\n");
 
