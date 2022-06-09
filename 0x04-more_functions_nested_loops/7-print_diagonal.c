@@ -2,7 +2,6 @@
 /**
  * print_diagonal - draws a diagonal on the terminal
  * @n: is the length of lines
- * Return: returns 0
  */
 void print_diagonal(int n)
 {
