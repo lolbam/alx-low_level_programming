@@ -1,26 +1,28 @@
 #include <stdio.h>
 /**
- * main - prints fibonacci number upto 50
+ * main - prints first 50 fibonacci numbers
  * Return: returns 0
  */
 
 int main(void)
 {
-	int c;
-	int countto = 50;
-	long a = 1;
-	long b = 2;
+	int count;
+	unsigned long p = 0, q = 1;
+	unsigned long sum;
 
-	for (c = 1; c <= countto / 2; c++)
+	for (count = 0; count < 50; count++)
 	{
-		printf("%li %li, ", a, b);
-		a = a + b;
-		b = b + a;
-	}
-	if (countto % 2 == 1)
-		printf("%li,", a);
+		sum = p + q;
+		printf("%lu", sum);
 
-	printf("\n");
+		p = q;
+		q = sum;
+
+		if (count == 49)
+			printf("\n");
+		else
+			printf(", ");
+	}
 
 	return (0);
 }
