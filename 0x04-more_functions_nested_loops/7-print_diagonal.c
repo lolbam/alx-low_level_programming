@@ -1,8 +1,12 @@
 #include "main.h"
 /**
  * print_diagonal - draws a diagonal on the terminal
+<<<<<<< HEAD
  * @n: is the length of diagonals
  * 
+=======
+ * @n: is the length of lines
+>>>>>>> 1f89c14adaeaaefb81e6707e68b11fac29a83093
  */
 void print_diagonal(int n)
 {
