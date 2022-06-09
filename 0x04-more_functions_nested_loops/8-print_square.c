@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_diagonal - draws a square on the terminal
+ * print_square - draws a square on the terminal
  * @size: is the size of square
  */
 void print_square(int size)
