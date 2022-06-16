@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* _strcpy - copies string from src to dest
+* _strcat - copies string from src to dest
 * @dest: where string will go
 * @src: where string is from
 *
-* Return: returns string
+* Return: returns dest
 */
 char *_strcat(char *dest, char *src)
 {
