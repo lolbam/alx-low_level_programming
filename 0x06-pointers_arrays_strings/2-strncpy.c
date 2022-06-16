@@ -2,7 +2,7 @@
 
 /**
 * _strncpy - Copies at most an inputted number
-*           of bytes from string src into dest
+* of bytes from string src into dest
 * @dest: to be copied into
 * @src: to be copied to
 * @n: number of characters to copy
