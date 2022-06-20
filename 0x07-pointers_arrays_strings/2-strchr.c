@@ -5,8 +5,7 @@
  * @s: checked string
  * @c: character located
  *
- * Retrun: pointer to the first occurrence of the character c
- *         in the string s, or NULL if the character is not found
+ * Retrun: pointer s and NULL if not found
  */
 char *_strchr(char *s, char c)
 {
