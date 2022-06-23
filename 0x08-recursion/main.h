@@ -11,4 +11,5 @@ int is_palindrome(char *s);
 int checker(char *str, int i, int j);
 int _strlen_recursion(char *s);
 int _sqrt_recursion(int n);
+int _pow_recursion(int x, int y);
 #endif
